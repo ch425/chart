@@ -1,0 +1,168 @@
+*{
+	padding: 0;
+	margin:0;
+	list-style: none;
+	text-decoration: none;
+}
+html{
+	height: 100%;
+	font-size: 26.67vw;
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+
+/*head*/
+header{
+	display: flex;
+	padding: 0.14rem 0.22rem;
+	font-size: 0.15rem;
+	height: 0.22rem;
+}
+.btn1{
+	float: left;
+	line-height: 0.22rem;
+}
+img{
+	width: 0.09rem;
+	height: 0.15rem;
+}
+.title{
+	width: 0.96rem;
+	margin: 0 auto;
+}
+h1{
+	display: inline-block;
+	text-align: center;
+	font-size: 0.16rem;
+	line-height: 0.22rem;
+	font-weight: 500;
+}
+.title>span{
+	display: inline-block;
+	font-size: 0.09rem;
+	width: 0.24rem;
+	text-align: center;
+	line-height: 0.13rem;
+	height: 0.13rem;
+	color: #fff;
+	margin-left: 0.06rem;
+	background-color: #f94e57;
+	border-radius: 0.02rem;
+}
+
+
+/*main*/
+main{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	flex: 1;
+	font-size: 0.13rem;
+	color: black;
+	/*align-items: flex-end;*/
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999999;
+	background-color: oldlace;
+	overflow-y: scroll;
+}
+main .left{
+	padding: 5px;
+}
+main .right{
+	padding: 5px;
+	text-align: right;
+}
+.right .txt {
+	margin-right: 0.1rem;
+  background-color: #3577e9;
+  color: #fff;
+}
+.Img {
+  display: inline-block;
+  vertical-align: top;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.Img img {
+  width: 100%;
+  height: 100%;
+}
+main .txt{
+  display: inline-block;
+  word-break: break-all;
+  white-space: pre-wrap;
+  text-align: left;
+  padding: 10px 20px;
+  line-height: 30px;
+  background-color: #ccc;
+  border-radius: 20px;
+  max-width: calc(100% - 1.3rem);
+}
+
+/*nav*/
+nav{
+	height: 0.26rem;
+	font-size: 0.11rem;
+	line-height: 0.26rem;
+	padding: 0.04rem 0.1rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom: 0.5px solid #999;
+}
+nav span{
+	width: 0.52rem;
+	height: 0.21rem;
+	border: 1px solid #999;
+	border-radius: 8px; 
+	text-align: center;
+	color: #747474;
+	line-height: 0.21rem;
+}
+nav span a{
+	color: #747474;
+}
+
+
+/*footer*/
+footer{
+	height: 0.39rem;
+	padding: 0.08rem 0.14rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+footer .voice,.more{
+	width: 0.39rem;
+	height: 0.39rem;
+	display: flex;
+}
+footer img{
+	width: 100%;
+	height: 100%;
+}
+input{
+	width: 1.8rem;
+	height: 0.39rem;
+	outline: none;
+	border-radius: 0.08rem;
+	border: 0.5px solid #999;
+	padding-left: 0.05rem;
+	white-space: pre-wrap;
+}
+.post{
+	width: 0.5rem;
+	height: 0.35rem;
+	color: white;
+	border: none;
+	background-color: red;
+}
